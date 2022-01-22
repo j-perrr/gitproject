@@ -1,0 +1,3 @@
+Hello world
+
+I am a bit confused on how to use git
