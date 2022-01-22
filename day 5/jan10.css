@@ -1,0 +1,106 @@
+body
+{
+    background-color: aqua;
+}
+.menu
+{
+    background-color: blue;
+    height: fit-content;
+    text-align: center;
+}
+.menu a
+{
+    height: 60px;
+    display: inline-block;
+    padding: 5%;
+
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+}
+.menu a:hover
+{
+    background-color: orange;
+
+}
+
+/* FLEX BOX STARTS HERE */
+.flexbox
+{
+    height: 300px;
+    background-color: darkgray;
+    display:flex;
+
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.b1
+{
+    border: 2px solid red;
+    width: 100px;
+    height: 40%;
+
+    overflow: hidden;
+}
+
+.b2
+{
+    border: 2px solid blue;
+    width: 200px;
+    height: 50%
+}
+
+.b3
+{
+    border: 2px solid green;
+    width: 300px;
+    height: 60%;
+
+}
+
+.b4
+{
+    border: 2px solid yellow;
+    width: 400px;
+    height: 70%;
+}
+
+/* overlapping- heroImage */
+
+.heroImagebox
+{
+    height: 600px;
+    width: 600px;
+
+    border: 2px solid red;
+
+    position: relative;
+}
+
+.heroImagebox img
+{
+    width: 100%;
+    height: 100%;
+}
+.sub
+{
+    border: 4px solid blue;
+    background-color: aliceblue;
+    
+    position:absolute;
+    top: 35%;
+    left: 35%;
+    
+    width: 25%;
+    height: 25%;
+
+    text-align: center;
+    text-justify:auto;
+}

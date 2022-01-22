@@ -1,0 +1,28 @@
+.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7,.menu8
+{
+    color: darkblue;
+    font-size: 50px;
+    background: antiquewhite;
+
+    width: 30%;
+}
+
+.div
+{
+    border: 2px solid red;
+    width: 25%;
+    height: 250px;
+    
+}
+
+.img
+{
+    width: 25%;
+    height: 50%;
+    border: 2px solid red;
+
+    background-color: black;
+
+    margin-left: 20%;
+
+}
